@@ -1,0 +1,17 @@
+.main-box{
+    background-color: black;
+    text-align: center;
+}
+.heading{
+    color: white;
+}
+div{
+    height: 200px;
+    width: 400px;
+}
+ul{
+    background-color: blue;
+}
+li{
+    background-color: yellow;
+}
