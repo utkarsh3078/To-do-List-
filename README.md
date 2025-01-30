@@ -10,7 +10,6 @@ A lightweight and interactive to-do list application built with HTML, CSS, and J
 - Mark tasks as completed
 - Delete tasks from the list
 - Local storage to save tasks
-- Responsive design for various screen sizes
 
 ## How to Use
 
