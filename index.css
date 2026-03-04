@@ -1,17 +1,81 @@
-.main-box{
-    background-color: black;
-    text-align: center;
+.main-box {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #111827, #1f2937);
+  font-family: Arial, Helvetica, sans-serif;
 }
-.heading{
-    color: white;
+
+.app-card {
+  width: min(92vw, 520px);
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 }
-div{
-    height: 200px;
-    width: 400px;
+
+.heading {
+  margin: 0 0 18px;
+  color: #111827;
+  font-size: 1.6rem;
+  text-align: center;
 }
-ul{
-    background-color: blue;
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
 }
-li{
-    background-color: yellow;
+
+#userInput {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+#userInput:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+#createButton {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#createButton:hover {
+  background: #1d4ed8;
+}
+
+#todoList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+#todoList li {
+  background: #f3f4f6;
+  color: #111827;
+  border-radius: 10px;
+  padding: 10px 12px;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  word-break: break-word;
+}
+
+#todoList li:hover {
+  background: #e5e7eb;
 }
