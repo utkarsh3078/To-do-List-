@@ -2,6 +2,8 @@
   margin: 0;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  gap: 5rem;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #111827, #1f2937);
@@ -78,4 +80,35 @@
 
 #todoList li:hover {
   background: #e5e7eb;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #6d6e70;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+.dark {
+  background: #e5e7eb;
+  color: #111827;
+}
+.dark button {
+  background: #f3f4f6;
+  color: #111827;
+}
+.dark h1 {
+  color: #111827;
 }
